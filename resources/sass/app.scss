@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Front
+@import 'front';
+
+//dropzone
+@import '~dropzone/dist/min/dropzone.min';
+
+// Bootstrap-select
+@import '~bootstrap-select/sass/bootstrap-select';
+
+// sidebar
+@import '~startbootstrap-sb-admin-2/scss/sb-admin-2';
+
+// datatables
+// @import '~datatables.net-bs4/css/dataTables.bootstrap4.css';

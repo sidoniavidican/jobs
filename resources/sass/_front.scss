@@ -1,0 +1,50 @@
+@mixin min-height() {
+    @media only screen and (max-width: 1000px) {
+        min-height: 150px;
+    }
+    @media only screen and (min-width: 1001px) {
+        min-height: 200px;
+    }
+}
+@mixin max-height() {
+    @media only screen and (max-width: 1000px) {
+        max-height: 150px;
+    }
+    @media only screen and (min-width: 1001px) {
+        max-height: 200px;
+    }
+}
+.gallery {
+    margin-bottom: 5px;
+    margin-top:20px;
+}
+.inner-content {
+    @include max-height;
+    float: left;
+    overflow: hidden;
+    margin: 0 0 5px;
+    width: 100%;
+}
+.img-responsive {
+    @include min-height;
+    width: 100%;
+    transition: transform 1s;
+}
+.img-responsive:hover {
+    transform: scale(1.1);
+}
+
+.dropzone {
+    height: 20px;
+    border: none !important;
+    min-height: 20px !important;
+    background: none !important;
+}   
+.dz-message {
+    margin-top: -18px !important;
+    display: block !important;
+}
+
+.upload {
+    height: 35px;
+}  
