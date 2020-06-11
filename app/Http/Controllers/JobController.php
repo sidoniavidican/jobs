@@ -96,6 +96,14 @@ class JobController extends Controller
     }
     public function test()
     {
+
+    }
+    public function test2()
+    {
+        
+    }
+    public function test12()
+    {
         
     }
 }
