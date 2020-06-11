@@ -94,4 +94,8 @@ class JobController extends Controller
         $job->delete();
         return redirect()->route('jobs.index');
     }
+    public function test()
+    {
+        
+    }
 }
